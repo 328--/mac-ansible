@@ -1,0 +1,42 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no           
+  sudo: no
+  vars:
+    homebrew_packages_taps:
+      - homebrew/binary
+      - homebrew/dupes
+    homebrew_packages_packages:
+      - { name: emacs }
+      - { name: vim }
+      - { name: git }
+      - { name: hub }
+      - { name: mercurial }
+      - { name: tmux }
+      - { name: whois }
+      - { name: node }
+      - { name: wget }
+      - { name: nkf }
+      - { name: nmap }
+      - { name: zsh, install_options: disable-etcdir }
+    homebrew_cask_packages_packages:
+      - atom
+      - firefox
+      - google-chrome
+      - iterm2
+      - skype
+      - coteditor
+      - dash
+      - dropbox
+      - evernote
+      - vlc
+      - vagrant
+      - virtualbox
+    atom_packages_packages:
+      - project-manager
+      - recent-files
+  roles:
+    - hnakamur.homebrew-packages
+    - hnakamur.homebrew-cask-packages
+    - hnakamur.atom-packages
+
