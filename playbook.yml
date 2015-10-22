@@ -20,23 +20,16 @@
       - { name: nmap }
       - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages_packages:
-      - atom
-      - firefox
-      - google-chrome
-      - iterm2
-      - skype
-      - coteditor
-      - dash
-      - dropbox
-      - evernote
-      - vlc
-      - vagrant
-      - virtualbox
-    atom_packages_packages:
-      - project-manager
-      - recent-files
+      -  karabiner
+      -  iterm2
+      -  atom
+      -  firefox
+      -  google-chrome
+      -  coteditor
+      -  dash
+      -  dropbox
+      -  evernote
+      -  vlc
   roles:
     - hnakamur.homebrew-packages
     - hnakamur.homebrew-cask-packages
-    - hnakamur.atom-packages
-
