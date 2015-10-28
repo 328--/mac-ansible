@@ -1,0 +1,3 @@
+[submodule "copyroll/files/dotfiles"]
+	path = copyroll/files/dotfiles
+	url = https://github.com/328--/dotfiles.git
