@@ -18,6 +18,9 @@
       - { name: wget }
       - { name: nkf }
       - { name: nmap }
+      - { name: tree }
+      - { name: go }
+      - { name: peco }
       - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages_packages:
       -  karabiner
@@ -30,6 +33,8 @@
       -  dropbox
       -  evernote
       -  vlc
+      -  bettertouchtool
   roles:
-    - hnakamur.homebrew-packages
-    - hnakamur.homebrew-cask-packages
+#    - hnakamur.homebrew-packages
+#    - hnakamur.homebrew-cask-packages
+    - copyroll
