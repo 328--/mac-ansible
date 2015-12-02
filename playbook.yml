@@ -35,8 +35,12 @@
       -  evernote
       -  vlc
       -  bettertouchtool
+      -  google-drive
       -  mactex
+      -  teleport
+      -  virtualbox
+      -  vagrant
   roles:
     - hnakamur.homebrew-packages
     - hnakamur.homebrew-cask-packages
-    - copyroll
+#    - copyroll
