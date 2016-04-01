@@ -11,6 +11,8 @@
       - { name: vim }
       - { name: git }
       - { name: hub }
+      - { name: gs }
+      - { name: peco }
       - { name: mercurial }
       - { name: tmux }
       - { name: whois }
@@ -21,6 +23,7 @@
       - { name: tree }
       - { name: go }
       - { name: peco }
+      - { name: gibo }
       - { name: zsh, install_options: disable-etcdir }
       - { name: caskroom/cask/brew-cask }
     homebrew_cask_packages_packages:
@@ -29,18 +32,16 @@
       -  atom
       -  firefox
       -  google-chrome
-      -  coteditor
-      -  dash
       -  dropbox
-      -  evernote
       -  vlc
       -  bettertouchtool
       -  google-drive
-      -  mactex
       -  teleport
       -  virtualbox
       -  vagrant
       -  firealpaca
+      -  skype
+      -  nylas-n1
   roles:
     - hnakamur.homebrew-packages
     - hnakamur.homebrew-cask-packages
